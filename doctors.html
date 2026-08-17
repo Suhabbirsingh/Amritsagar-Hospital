@@ -1,0 +1,40 @@
+﻿<!-- DOCTOR DIRECTORY: edit cards with confirmed clinician details only. -->
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doctors | Amritsagar Hospital</title>
+  <meta name="description" content="Doctor directory at Amritsagar Hospital.">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="emergency-bar">Emergency: <a href="tel:+917832006300">7832006300</a> · Ambulance: <a href="tel:+917832006300">7832006300</a> · Open 24×7</div>
+  <header class="site-header"><div class="header-inner"><a class="brand-lockup" href="index.html"><span class="brand-mark">AS</span><span><strong>AMRITSAGAR HOSPITAL</strong><small>SERVING HUMANITY</small></span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button><nav class="primary-nav" id="nav" aria-label="Primary navigation"><a href="specialties.html">Specialties</a><a href="doctors.html" aria-current="page">Doctors</a><a href="locations.html">Locations</a><a href="health-packages.html">Our Services</a><a href="insurance.html">Insurance</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="patient-login.html">Patient Login</a></nav><a class="btn btn-primary btn-sm" href="book-appointment.html">Book Appointment</a></div></header>
+  <main id="main"><div class="wrap breadcrumbs"><a href="index.html">Home</a><span>›</span>Doctors</div><section class="section"><div class="wrap"><h1>Find a doctor</h1>
+  <!-- INTEGRATION POINT: doctor-availability Replace: visual filters and static cards Needs: clinician directory and availability API Owner: HIS integration team Notes: do not expose patient data -->
+  <div class="todo"><p>Search, filtering and live availability require backend integration.</p><div class="filters"><select name="specialty"><option>Specialty</option></select><select name="location"><option>Location</option></select><select name="language"><option>Language</option></select><select name="consultation_mode"><option>Consultation mode</option></select></div></div>
+  <!-- ===== DOCTOR CARDS ” add confirmed doctors here ===== -->
+  <div id="doctor-list" class="grid grid-3">
+    <article class="doc-card"><div class="avatar">AP</div><h2>Dr. Amruta Palsikar</h2><p>MBBS, Diploma in Obstetrics and Gynaecology</p><p>Gynaecology &amp; Obstetrics</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+    <article class="doc-card"><div class="avatar">PP</div><h2>Dr. Peri Parikhya</h2><p>MBBS</p><p>IVF specialty</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+    <article class="doc-card"><div class="avatar">YK</div><h2>Dr. Yogendra Kumar</h2><p>[Qualifications]</p><p>Gastroenterology &amp; Hepatology</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+    <article class="doc-card"><div class="avatar">SS</div><h2>Dr. Samik Sharma</h2><p>[Qualifications]</p><p>Plastic Surgery</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+    <article class="doc-card"><div class="avatar">AM</div><h2>Dr. Amit Mehta</h2><p>[Qualifications]</p><p>Orthopaedics</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+    <article class="doc-card"><div class="avatar">PV</div><h2>Dr. Pariksha Verma</h2><p>[Qualifications]</p><p>Physiotherapy</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+    <article class="doc-card"><div class="avatar">R</div><h2>Dr. Reetika</h2><p>BAMS</p><p>Ayurveda</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+    <article class="doc-card"><div class="avatar">DS</div><h2>Dr. Deshant Sharma</h2><p>[Qualifications]</p><p>Medical Officer</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+    <article class="doc-card"><div class="avatar">G</div><h2>Dr. Gaurav</h2><p>[Qualifications]</p><p>Urology</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+    <article class="doc-card"><div class="avatar">AN</div><h2>Dr. Amit Nagpal</h2><p>[Qualifications]</p><p>Paediatrics</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+    <article class="doc-card"><div class="avatar">P</div><h2>Dr. Pawan</h2><p>[Qualifications]</p><p>General Surgery</p><p>[Years experience] · [Languages] · Fee: [₹ fee]</p><span class="tag">In-person</span><p>Next available: [placeholder]</p><a class="btn btn-outline btn-sm" href="doctor-profile.html">View Profile</a> <a class="btn btn-primary btn-sm" href="book-appointment.html">Book</a></article>
+  </div></div></section></main>
+  <footer class="site-footer"><div class="wrap footer-bottom">© 2026 Amritsagar Hospital · Emergency <a href="tel:+917832006300">7832006300</a> · <a href="404.html">Privacy notice</a> · Data Protection Officer: post not appointed yet · Grievance Officer: Suhab Bir Singh, <a href="mailto:suhabbirsingh@gmail.com">suhabbirsingh@gmail.com</a></div></footer>
+</body>
+</html>
+
+
+
+
+
